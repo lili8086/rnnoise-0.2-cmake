@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.29)
 project(rnnoise_cmakeprj)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_C_FLAGS "-pedantic -Wall -Wextra -Wno-sign-compare -Wno-parentheses -Wno-long-long -fPIC -DHAVE_CONFIG_H")
 
 include_directories(./src ./include ./)
